@@ -19,7 +19,6 @@
 		6D495C9E22B0A6A900D968FB /* UIView+FDLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D495BF822B0A6A900D968FB /* UIView+FDLayout.h */; };
 		6D495C9F22B0A6A900D968FB /* UIView+FDLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D495BF922B0A6A900D968FB /* UIView+FDLayout.m */; };
 		6D495CA022B0A6A900D968FB /* FDDotView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D495BFB22B0A6A900D968FB /* FDDotView.h */; };
-		6D495CA122B0A6A900D968FB /* FDTabBar.md in Resources */ = {isa = PBXBuildFile; fileRef = 6D495BFC22B0A6A900D968FB /* FDTabBar.md */; };
 		6D495CA222B0A6A900D968FB /* UITabBarController+FDTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D495BFD22B0A6A900D968FB /* UITabBarController+FDTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D495CA322B0A6A900D968FB /* FDTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D495BFE22B0A6A900D968FB /* FDTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D495CA422B0A6A900D968FB /* UITabBar+FDPrivateObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D495BFF22B0A6A900D968FB /* UITabBar+FDPrivateObject.h */; };
@@ -186,7 +185,6 @@
 		6D495BF822B0A6A900D968FB /* UIView+FDLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FDLayout.h"; sourceTree = "<group>"; };
 		6D495BF922B0A6A900D968FB /* UIView+FDLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FDLayout.m"; sourceTree = "<group>"; };
 		6D495BFB22B0A6A900D968FB /* FDDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDDotView.h; sourceTree = "<group>"; };
-		6D495BFC22B0A6A900D968FB /* FDTabBar.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = FDTabBar.md; sourceTree = "<group>"; };
 		6D495BFD22B0A6A900D968FB /* UITabBarController+FDTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+FDTabBarController.h"; sourceTree = "<group>"; };
 		6D495BFE22B0A6A900D968FB /* FDTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDTabBar.h; sourceTree = "<group>"; };
 		6D495BFF22B0A6A900D968FB /* UITabBar+FDPrivateObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+FDPrivateObject.h"; sourceTree = "<group>"; };
@@ -367,7 +365,6 @@
 		6D495A9622B09A5100D968FB /* FDControlTabbar */ = {
 			isa = PBXGroup;
 			children = (
-				6D495BFC22B0A6A900D968FB /* FDTabBar.md */,
 				6D495BE922B0A6A900D968FB /* Category */,
 				6D495BF622B0A6A900D968FB /* Control */,
 				6D495A9722B09A5100D968FB /* FDControlTabbar.h */,
@@ -849,7 +846,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D495CA122B0A6A900D968FB /* FDTabBar.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1088,7 +1084,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = FDControlTabbar/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1113,7 +1109,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = FDControlTabbar/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

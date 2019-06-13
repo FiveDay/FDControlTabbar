@@ -1,6 +1,0 @@
-framework module FDControlTabbar {
-  umbrella header "FDControlTabbar.h"
-
-  export *
-  module * { export * }
-}

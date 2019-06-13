@@ -20,4 +20,3 @@ iOS8+
 ##Installation
 * CocoaPods
 * Carthage
-

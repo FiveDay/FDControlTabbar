@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D48040C22B234F5007AD0C4 /* FDControlTabbar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D495AAF22B09B7500D968FB /* FDControlTabbar.framework */; };
 		6D495A0C22AF50FC00D968FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D495A0B22AF50FC00D968FB /* AppDelegate.m */; };
 		6D495A0F22AF50FC00D968FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D495A0E22AF50FC00D968FB /* ViewController.m */; };
 		6D495A1222AF50FC00D968FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D495A1022AF50FC00D968FB /* Main.storyboard */; };
@@ -20,7 +21,6 @@
 		6D495A8722B0995000D968FB /* Demo4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D495A8022B0995000D968FB /* Demo4ViewController.m */; };
 		6D495A8822B0995000D968FB /* Demo3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D495A8222B0995000D968FB /* Demo3ViewController.m */; };
 		6D495A8922B0995000D968FB /* Demo2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D495A8322B0995000D968FB /* Demo2ViewController.m */; };
-		6D495D3922B0D2B000D968FB /* FDControlTabbar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D495D3822B0D2B000D968FB /* FDControlTabbar.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,7 +68,6 @@
 		6D495A8322B0995000D968FB /* Demo2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo2ViewController.m; sourceTree = "<group>"; };
 		6D495A8422B0995000D968FB /* Demo1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo1ViewController.h; sourceTree = "<group>"; };
 		6D495AAF22B09B7500D968FB /* FDControlTabbar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FDControlTabbar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D495D3822B0D2B000D968FB /* FDControlTabbar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FDControlTabbar.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D495D3922B0D2B000D968FB /* FDControlTabbar.framework in Frameworks */,
+				6D48040C22B234F5007AD0C4 /* FDControlTabbar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,7 +120,6 @@
 		6D495A0922AF50FC00D968FB /* FDControlTabbarDemo */ = {
 			isa = PBXGroup;
 			children = (
-				6D495D3722B0D2B000D968FB /* dependency */,
 				6D495A7A22B0995000D968FB /* TabBarDemoVC */,
 				6D495A0A22AF50FC00D968FB /* AppDelegate.h */,
 				6D495A0B22AF50FC00D968FB /* AppDelegate.m */,
@@ -178,14 +176,6 @@
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
-		};
-		6D495D3722B0D2B000D968FB /* dependency */ = {
-			isa = PBXGroup;
-			children = (
-				6D495D3822B0D2B000D968FB /* FDControlTabbar.framework */,
-			);
-			path = dependency;
-			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
