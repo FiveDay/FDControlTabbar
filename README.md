@@ -1,11 +1,11 @@
-#Fast Develop TabBarController
+# Fast Develop TabBarController
 
 
-##Introduction
+## Introduction
 开发最快捷的TabBarController,没有之一.
 
 支持主流定制化功能.
-##Features
+## Features
 * UITabBarController扩展, 最小化代码侵入性.
 * 支持TabBar中间凸起Button显示.
 * 支持定制UTabBarItem动画效果.
@@ -15,8 +15,8 @@
 * 兼容UITabBarController的api使用方式.
 
 
-##Requirements
+## Requirements
 iOS8+
-##Installation
+## Installation
 * CocoaPods
 * Carthage
