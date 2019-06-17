@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6D48040C22B234F5007AD0C4 /* FDControlTabbar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D495AAF22B09B7500D968FB /* FDControlTabbar.framework */; };
+		6D48040F22B27241007AD0C4 /* home.json in Resources */ = {isa = PBXBuildFile; fileRef = 6D48040E22B27241007AD0C4 /* home.json */; };
 		6D495A0C22AF50FC00D968FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D495A0B22AF50FC00D968FB /* AppDelegate.m */; };
 		6D495A0F22AF50FC00D968FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D495A0E22AF50FC00D968FB /* ViewController.m */; };
 		6D495A1222AF50FC00D968FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D495A1022AF50FC00D968FB /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6D48040E22B27241007AD0C4 /* home.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = home.json; sourceTree = "<group>"; };
 		6D495A0722AF50FC00D968FB /* FDControlTabbarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FDControlTabbarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D495A0A22AF50FC00D968FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6D495A0B22AF50FC00D968FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -96,9 +98,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D48040D22B27241007AD0C4 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				6D48040E22B27241007AD0C4 /* home.json */,
+			);
+			name = resource;
+			path = FDControlTabbarDemo/resource;
+			sourceTree = "<group>";
+		};
 		6D4959FE22AF50FC00D968FB = {
 			isa = PBXGroup;
 			children = (
+				6D48040D22B27241007AD0C4 /* resource */,
 				6D495A0922AF50FC00D968FB /* FDControlTabbarDemo */,
 				6D495A2222AF50FE00D968FB /* FDControlTabbarDemoTests */,
 				6D495A2D22AF50FE00D968FB /* FDControlTabbarDemoUITests */,
@@ -282,6 +294,7 @@
 			files = (
 				6D495A1722AF50FE00D968FB /* LaunchScreen.storyboard in Resources */,
 				6D495A1422AF50FE00D968FB /* Assets.xcassets in Resources */,
+				6D48040F22B27241007AD0C4 /* home.json in Resources */,
 				6D495A1222AF50FC00D968FB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

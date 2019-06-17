@@ -30,11 +30,11 @@
     self.tableView.dataSource = self;
     
     //添加测试vc
-    [self.testVCClassNameArray addObject:@"audio"];
-    [self.testVCClassNameArray addObject:@"router"];
-    [self.testVCClassNameArray addObject:@"butten"];
-    [self.testVCClassNameArray addObject:@"guide"];
-    [self.testVCClassNameArray addObject:@"nsobject"];
+    [self.testVCClassNameArray addObject:@"A"];
+    [self.testVCClassNameArray addObject:@"B"];
+    [self.testVCClassNameArray addObject:@"C"];
+    [self.testVCClassNameArray addObject:@"D"];
+    [self.testVCClassNameArray addObject:@"E"];
 }
 
 

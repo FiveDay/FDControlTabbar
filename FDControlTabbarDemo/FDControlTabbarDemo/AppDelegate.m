@@ -84,7 +84,7 @@
 }
 
 #pragma mark - private
-
+//设置图片tab
 - (UIViewController*)demo1 {
     Demo1ViewController* demo = [Demo1ViewController new];
     demo.tabBarItem.title = @"Demo1";
@@ -93,21 +93,14 @@
     return demo;
 }
 
+//设置lottie tab
 - (UIViewController*)demo2 {
     Demo2ViewController* demo = [Demo2ViewController new];
-    //demo.tabBarItem.lottieName = @"home";
-        demo.tabBarItem.title = @"Demo2";
-        //设置非选tabBarItem中图片
-        demo.tabBarItem.image = [UIImage imageNamed:@"tabBarBtn2_01"];
-        demo.tabBarItem.selectedImage = [[UIImage imageNamed:@"tabBarBtn2_02"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-        //设置tabBarItem 标题属性
-        [demo.tabBarItem setTitleTextAttributes:@{NSForegroundColorAttributeName: [UIColor blackColor],
-                                                  } forState:UIControlStateSelected];
-        //设置红点提醒内容
-        demo.tabBarItem.badgeValue = @"1";
+    demo.tabBarItem.lottieName = @"home";
     return demo;
 }
 
+//设置帧动画tab
 - (UIViewController*)demo3 {
     Demo3ViewController* demo = [Demo3ViewController new];
     demo.tabBarItem.title = @"Demo3";
@@ -129,6 +122,7 @@
     return demo;
 }
 
+//设置图片动画tab
 - (UIViewController*)demo4 {
     Demo4ViewController* demo = [Demo4ViewController new];
     demo.tabBarItem.title = @"Demo4";
