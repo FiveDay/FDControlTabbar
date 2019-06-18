@@ -181,6 +181,7 @@
 		6D495A7A22B0995000D968FB /* TabBarDemoVC */ = {
 			isa = PBXGroup;
 			children = (
+				6D495A8122B0995000D968FB /* PlusButtonViewController.h */,
 				6D495A7B22B0995000D968FB /* PlusButtonViewController.m */,
 				6D495A8422B0995000D968FB /* Demo1ViewController.h */,
 				6D495A7F22B0995000D968FB /* Demo1ViewController.m */,
@@ -190,7 +191,6 @@
 				6D495A8222B0995000D968FB /* Demo3ViewController.m */,
 				6D495A7C22B0995000D968FB /* Demo4ViewController.h */,
 				6D495A8022B0995000D968FB /* Demo4ViewController.m */,
-				6D495A8122B0995000D968FB /* PlusButtonViewController.h */,
 			);
 			path = TabBarDemoVC;
 			sourceTree = "<group>";

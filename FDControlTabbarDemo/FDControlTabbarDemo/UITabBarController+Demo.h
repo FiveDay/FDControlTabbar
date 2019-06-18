@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface UITabBarController (Demo)
 
 + (instancetype)jdTabBarController;
-
++ (instancetype)xyTabBarController;
 @end
 
 NS_ASSUME_NONNULL_END

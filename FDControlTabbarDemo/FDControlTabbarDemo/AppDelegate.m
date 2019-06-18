@@ -29,7 +29,11 @@
     self.window = [[UIWindow alloc]initWithFrame:frame];
     
     
-    UITabBarController* tabCtl = [UITabBarController jdTabBarController];//[self demoTabBarController];
+    UITabBarController* tabCtl;
+    //京东TabBar
+    tabCtl = [UITabBarController jdTabBarController];
+    //咸鱼TabBar
+//    tabCtl = [UITabBarController xyTabBarController];
     
     UINavigationController* rootVC = [[UINavigationController alloc]initWithRootViewController:tabCtl];
     self.window.rootViewController = rootVC;

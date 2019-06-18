@@ -34,4 +34,29 @@
     return instance;
 }
 
++ (instancetype)xyTabBarController {
+    UITabBarController* instance = [UITabBarController new];
+    instance.tabBar.translucent = YES;
+    
+    //创建中间plusButton
+    instance.plusButton = [UIButton new];
+    [instance.plusButton setImage:[UIImage imageNamed:@"post_normal"] forState:UIControlStateNormal];
+    instance.plusButton.imageEdgeInsets = UIEdgeInsetsMake(-30, 0, 0, 0);
+    Demo1ViewController* demo1 = [Demo1ViewController new];
+    demo1.tabBarItem.image = [UIImage imageNamed:@"home_normal"];
+    demo1.tabBarItem.selectedImage = [[UIImage imageNamed:@"home_highlight"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    Demo2ViewController* demo2 = [Demo2ViewController new];
+    demo2.tabBarItem.image = [UIImage imageNamed:@"message_normal"];
+    demo2.tabBarItem.selectedImage = [[UIImage imageNamed:@"message_highlight"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    Demo3ViewController* demo3 = [Demo3ViewController new];
+    demo3.tabBarItem.image = [UIImage imageNamed:@"mycity_normal"];
+    demo3.tabBarItem.selectedImage = [[UIImage imageNamed:@"mycity_highlight"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    Demo4ViewController* demo4 = [Demo4ViewController new];
+    demo4.tabBarItem.image = [UIImage imageNamed:@"account_normal"];
+    demo4.tabBarItem.selectedImage = [[UIImage imageNamed:@"account_highlight"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    
+    instance.viewControllers = @[demo1, demo2, demo3, demo4];
+
+    return instance;
+}
 @end
