@@ -111,6 +111,7 @@ static char kAssociatedKeyLottieAnimationViewObjectKey;
             LOTAnimationView* animationView  = [btn getPropertyValue:&kAssociatedKeyLottieAnimationViewObjectKey];
             if (animationView == nil) {
                 animationView = [LOTAnimationView animationNamed:self.items[itemIndex].lottieName];
+                animationView.contentMode = UIViewContentModeScaleAspectFit;
                 animationView.userInteractionEnabled = NO;
                 animationView.frame = btn.bounds;
                 [btn addSubview:animationView];

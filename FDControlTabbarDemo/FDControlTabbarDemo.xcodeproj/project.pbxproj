@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		451E372A22B8B9D400881399 /* discover.json in Resources */ = {isa = PBXBuildFile; fileRef = 451E372922B8B9D400881399 /* discover.json */; };
+		451E372C22B8B9DC00881399 /* category.json in Resources */ = {isa = PBXBuildFile; fileRef = 451E372B22B8B9DC00881399 /* category.json */; };
+		451E372E22B8B9E400881399 /* cart.json in Resources */ = {isa = PBXBuildFile; fileRef = 451E372D22B8B9E400881399 /* cart.json */; };
+		451E373222B8BC4F00881399 /* UITabBarController+Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 451E373122B8BC4F00881399 /* UITabBarController+Demo.m */; };
 		6D48040C22B234F5007AD0C4 /* FDControlTabbar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D495AAF22B09B7500D968FB /* FDControlTabbar.framework */; };
 		6D48040F22B27241007AD0C4 /* home.json in Resources */ = {isa = PBXBuildFile; fileRef = 6D48040E22B27241007AD0C4 /* home.json */; };
 		6D495A0C22AF50FC00D968FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D495A0B22AF50FC00D968FB /* AppDelegate.m */; };
@@ -42,6 +46,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		451E372922B8B9D400881399 /* discover.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = discover.json; sourceTree = "<group>"; };
+		451E372B22B8B9DC00881399 /* category.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = category.json; sourceTree = "<group>"; };
+		451E372D22B8B9E400881399 /* cart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cart.json; sourceTree = "<group>"; };
+		451E373022B8BC4F00881399 /* UITabBarController+Demo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+Demo.h"; sourceTree = "<group>"; };
+		451E373122B8BC4F00881399 /* UITabBarController+Demo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+Demo.m"; sourceTree = "<group>"; };
 		6D48040E22B27241007AD0C4 /* home.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = home.json; sourceTree = "<group>"; };
 		6D495A0722AF50FC00D968FB /* FDControlTabbarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FDControlTabbarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D495A0A22AF50FC00D968FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -101,6 +110,9 @@
 		6D48040D22B27241007AD0C4 /* resource */ = {
 			isa = PBXGroup;
 			children = (
+				451E372D22B8B9E400881399 /* cart.json */,
+				451E372B22B8B9DC00881399 /* category.json */,
+				451E372922B8B9D400881399 /* discover.json */,
 				6D48040E22B27241007AD0C4 /* home.json */,
 			);
 			name = resource;
@@ -142,6 +154,8 @@
 				6D495A1522AF50FE00D968FB /* LaunchScreen.storyboard */,
 				6D495A1822AF50FE00D968FB /* Info.plist */,
 				6D495A1922AF50FE00D968FB /* main.m */,
+				451E373022B8BC4F00881399 /* UITabBarController+Demo.h */,
+				451E373122B8BC4F00881399 /* UITabBarController+Demo.m */,
 			);
 			path = FDControlTabbarDemo;
 			sourceTree = "<group>";
@@ -168,15 +182,15 @@
 			isa = PBXGroup;
 			children = (
 				6D495A7B22B0995000D968FB /* PlusButtonViewController.m */,
-				6D495A7C22B0995000D968FB /* Demo4ViewController.h */,
-				6D495A7D22B0995000D968FB /* Demo3ViewController.h */,
-				6D495A7E22B0995000D968FB /* Demo2ViewController.h */,
+				6D495A8422B0995000D968FB /* Demo1ViewController.h */,
 				6D495A7F22B0995000D968FB /* Demo1ViewController.m */,
+				6D495A7E22B0995000D968FB /* Demo2ViewController.h */,
+				6D495A8322B0995000D968FB /* Demo2ViewController.m */,
+				6D495A7D22B0995000D968FB /* Demo3ViewController.h */,
+				6D495A8222B0995000D968FB /* Demo3ViewController.m */,
+				6D495A7C22B0995000D968FB /* Demo4ViewController.h */,
 				6D495A8022B0995000D968FB /* Demo4ViewController.m */,
 				6D495A8122B0995000D968FB /* PlusButtonViewController.h */,
-				6D495A8222B0995000D968FB /* Demo3ViewController.m */,
-				6D495A8322B0995000D968FB /* Demo2ViewController.m */,
-				6D495A8422B0995000D968FB /* Demo1ViewController.h */,
 			);
 			path = TabBarDemoVC;
 			sourceTree = "<group>";
@@ -293,7 +307,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D495A1722AF50FE00D968FB /* LaunchScreen.storyboard in Resources */,
+				451E372E22B8B9E400881399 /* cart.json in Resources */,
 				6D495A1422AF50FE00D968FB /* Assets.xcassets in Resources */,
+				451E372A22B8B9D400881399 /* discover.json in Resources */,
+				451E372C22B8B9DC00881399 /* category.json in Resources */,
 				6D48040F22B27241007AD0C4 /* home.json in Resources */,
 				6D495A1222AF50FC00D968FB /* Main.storyboard in Resources */,
 			);
@@ -322,6 +339,7 @@
 			files = (
 				6D495A8522B0995000D968FB /* PlusButtonViewController.m in Sources */,
 				6D495A0F22AF50FC00D968FB /* ViewController.m in Sources */,
+				451E373222B8BC4F00881399 /* UITabBarController+Demo.m in Sources */,
 				6D495A8722B0995000D968FB /* Demo4ViewController.m in Sources */,
 				6D495A8622B0995000D968FB /* Demo1ViewController.m in Sources */,
 				6D495A1A22AF50FE00D968FB /* main.m in Sources */,

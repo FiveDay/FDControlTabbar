@@ -385,6 +385,7 @@
 		6D495BE922B0A6A900D968FB /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				6D495BF722B0A6A900D968FB /* UIView */,
 				6D495BEA22B0A6A900D968FB /* UIImage */,
 				6D495BEF22B0A6A900D968FB /* NSObject */,
 			);
@@ -414,7 +415,6 @@
 		6D495BF622B0A6A900D968FB /* Control */ = {
 			isa = PBXGroup;
 			children = (
-				6D495BF722B0A6A900D968FB /* UIView */,
 				6D495BFA22B0A6A900D968FB /* TabBar */,
 			);
 			path = Control;

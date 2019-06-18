@@ -11,10 +11,10 @@
 ## Contents
 
 * Getting Started
-	* [Features【What is the distinguishing feature of this control】](#What_is_the_distinguishing_feature_of_this_control)
-	* [Features【Support what kinds of style to tabbar】](#Support_what_kinds_of_style_to_tabbar)
+	* [【What is the distinguishing feature of this control】](#What_is_the_distinguishing_feature_of_this_control)
+	* [【Support what kinds of style to tabbar】](#Support_what_kinds_of_style_to_tabbar)
 	* [【Requirements】](#Requirements)
-	* [Installation 【How to use FDControlTabbar】](#How_to_use_FDControlTabbar)
+	* [【How to use FDControlTabbar】](#How_to_use_FDControlTabbar)
 	* [【Demo】is here](#Demo)
 	
 
@@ -23,7 +23,7 @@
 
 * UITabBarController扩展, 最小化代码侵入性.
 * 支持TabBar中间凸起Button显示.
-* 支持定制UTabBarItem动画效果.
+* 支持定制UTabBarItem Lotties动画效果.
 * 支持定制UITabBarItem图片帧动画效果.
 * 支持修改选中UITabBarItem背景颜色.
 * 支持UITaBarItem小红点.

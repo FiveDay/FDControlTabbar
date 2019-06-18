@@ -9,8 +9,7 @@
 #import "AppDelegate.h"
 
 #import <FDControlTabbar/FDControlTabbar.h>
-#import <FDControlTabbar/FDTabBar.h>
-#import  <FDControlTabbar/UITabBarController+FDTabBarController.h>
+#import "UITabBarController+Demo.h"
 #import "Demo1ViewController.h"
 #import "Demo2ViewController.h"
 #import "Demo3ViewController.h"
@@ -30,24 +29,7 @@
     self.window = [[UIWindow alloc]initWithFrame:frame];
     
     
-    UITabBarController* tabCtl = [UITabBarController new];
-    tabCtl.selectedIndex = 0;
-    //设置tabBar透过
-    tabCtl.tabBar.translucent = YES;
-    //设置tabBarItem选中后image的合成颜色.
-    tabCtl.tabBar.tintColor = [UIColor blueColor];
-    //创建中间plusButton
-    tabCtl.plusButton = [UIButton new];
-    //tabCtl.plusButton.image = [UIImage imageNamed:@"+"];
-    [tabCtl.plusButton setImage:[UIImage imageNamed:@"+"] forState:UIControlStateNormal];
-    //调整位plusButton的image向上拉伸20达到凸起到tabbar外.
-    tabCtl.plusButton.imageEdgeInsets = UIEdgeInsetsMake(-30, 0, 0, 0);
-    [tabCtl.plusButton addTarget:self action:@selector(onPlusButton) forControlEvents:UIControlEventTouchUpInside];
-    //将子viewController添加到UITabBarController上.
-    [tabCtl addChildViewController:[self demo1]];
-    [tabCtl addChildViewController:[self demo2]];
-    [tabCtl addChildViewController:[self demo3]];
-    [tabCtl addChildViewController:[self demo4]];
+    UITabBarController* tabCtl = [UITabBarController jdTabBarController];//[self demoTabBarController];
     
     UINavigationController* rootVC = [[UINavigationController alloc]initWithRootViewController:tabCtl];
     self.window.rootViewController = rootVC;
@@ -84,6 +66,29 @@
 }
 
 #pragma mark - private
+//
+- (UITabBarController*)demoTabBarController {
+    UITabBarController* tabCtl = [UITabBarController new];
+    tabCtl.selectedIndex = 0;
+    //设置tabBar透过
+    tabCtl.tabBar.translucent = YES;
+    //设置tabBarItem选中后image的合成颜色.
+    tabCtl.tabBar.tintColor = [UIColor blueColor];
+    //创建中间plusButton
+    tabCtl.plusButton = [UIButton new];
+    //tabCtl.plusButton.image = [UIImage imageNamed:@"+"];
+    [tabCtl.plusButton setImage:[UIImage imageNamed:@"+"] forState:UIControlStateNormal];
+    //调整位plusButton的image向上拉伸20达到凸起到tabbar外.
+    tabCtl.plusButton.imageEdgeInsets = UIEdgeInsetsMake(-30, 0, 0, 0);
+    [tabCtl.plusButton addTarget:self action:@selector(onPlusButton) forControlEvents:UIControlEventTouchUpInside];
+    //将子viewController添加到UITabBarController上.
+    [tabCtl addChildViewController:[self demo1]];
+    [tabCtl addChildViewController:[self demo2]];
+    [tabCtl addChildViewController:[self demo3]];
+    [tabCtl addChildViewController:[self demo4]];
+    
+    return tabCtl;
+}
 //设置图片tab
 - (UIViewController*)demo1 {
     Demo1ViewController* demo = [Demo1ViewController new];
