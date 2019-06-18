@@ -34,7 +34,7 @@
 * `lottie`、`KeyAnimation`、`largeImageButton`、`ImageArrayButton`、`badge`
 
 ## <a id="Requirements"></a>Requirements
-iOS8+
+* iOS8.0 or later
 
 ## <a id="How_to_use_FDControlTabbar"></a>How to use FDControlTabbar
 * 安装 
@@ -48,33 +48,40 @@ iOS8+
     	* 引入头文件：`#import "FDControlTabbar.h"`
 
 * 代码示例
-	* lottie格式的用法
+	* lottie格式
+		* 代码
 	
-		```
-		//这里需要保证工程中引入了对应的json文件，如这里需要加入‘home.json’。
-		Demo2ViewController* demo = [Demo2ViewController new];
-	    demo.tabBarItem.lottieName = @"home";
-		```
+			```
+			//这里需要保证工程中引入了对应的json文件，如这里需要加入‘home.json’。
+			Demo2ViewController* demo = [Demo2ViewController new];
+		    demo.tabBarItem.lottieName = @"home";
+			```
+		* Demo
+			![Alt Text](https://github.com/znkd/OpenSourcesProjectResource/blob/master/FDControlTabbar/Demo2Gif.gif?raw=true) 
 	* keyAnimation的用法
-
-		```
-		Demo3ViewController* demo = [Demo3ViewController new];
-	    demo.tabBarItem.title = @"Demo3";
-	    //设置非选中图片
-	    demo.tabBarItem.image = [UIImage imageNamed:@"tabBarBtn3_01"];
-	    demo.tabBarItem.selectedImage = [[UIImage imageNamed:@"tabBarBtn3_02"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-	    //tabBarItem选中背景色.
-	    demo.tabBarItem.selectedBgColor = [UIColor darkGrayColor];
-	    
-	    CAKeyframeAnimation *animation = [CAKeyframeAnimation animation];
-	    animation.keyPath = @"transform.scale";
-	    animation.values = @[@1.0,@1.3,@0.9,@1.15,@0.95,@1.02,@1.0];
-	    animation.duration = 1;
-	    animation.calculationMode = kCAAnimationCubic;
-	    demo.tabBarItem.animation = animation;
-		```
+		* 代码
+		
+			```
+			Demo3ViewController* demo = [Demo3ViewController new];
+		    demo.tabBarItem.title = @"Demo3";
+		    //设置非选中图片
+		    demo.tabBarItem.image = [UIImage imageNamed:@"tabBarBtn3_01"];
+		    demo.tabBarItem.selectedImage = [[UIImage imageNamed:@"tabBarBtn3_02"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+		    //tabBarItem选中背景色.
+		    demo.tabBarItem.selectedBgColor = [UIColor darkGrayColor];
+		    
+		    CAKeyframeAnimation *animation = [CAKeyframeAnimation animation];
+		    animation.keyPath = @"transform.scale";
+		    animation.values = @[@1.0,@1.3,@0.9,@1.15,@0.95,@1.02,@1.0];
+		    animation.duration = 1;
+		    animation.calculationMode = kCAAnimationCubic;
+		    demo.tabBarItem.animation = animation;
+			```
+		* Demo
+			![Alt Text](https://github.com/znkd/OpenSourcesProjectResource/blob/master/FDControlTabbar/Demo3Gif.gif?raw=true)
 	* 中间大图按钮的用法
-	
+		* 代码
+		
 		```
 		UITabBarController* tabCtl = [UITabBarController new];
 	    //设置tabBar透过
@@ -87,10 +94,13 @@ iOS8+
 	    //调整位plusButton的image向上拉伸20达到凸起到tabbar外.
 	    tabCtl.plusButton.imageEdgeInsets = UIEdgeInsetsMake(-30, 0, 0, 0);
 	    [tabCtl.plusButton addTarget:self action:@selector(onPlusButton) forControlEvents:UIControlEventTouchUpInside];
-	```
+		```
+		* Demo
+			![Alt Text](https://github.com/znkd/OpenSourcesProjectResource/blob/master/FDControlTabbar/BigButtonGif.gif?raw=true)
 	
 	* 图片数组的用法
-	
+		* 代码
+		
 		```
 		Demo4ViewController* demo = [Demo4ViewController new];
 	    demo.tabBarItem.title = @"Demo4";
@@ -107,9 +117,11 @@ iOS8+
 	    //设置选中帧动画图片
 	    demo.tabBarItem.animationImages = [list copy];
 		```
-	
+		* Demo
+			![Alt Text](https://github.com/znkd/OpenSourcesProjectResource/blob/master/FDControlTabbar/Demo4Gif.gif?raw=true)
 	* 给tabbaritem加脚注提醒
-		
+		* 代码
+		 
 		```
 		Demo3ViewController* demo = [Demo3ViewController new];
 	    demo.tabBarItem.title = @"Demo3";
@@ -117,7 +129,8 @@ iOS8+
 	    demo.tabBarItem.isShowDot = YES;
 	    demo.tabBarItem.dotColor = [UIColor blueColor];
 		```
-
+		* Demo
+			![Alt Text](https://github.com/znkd/OpenSourcesProjectResource/blob/master/FDControlTabbar/Demo3Gif.gif?raw=true)
 
 ## <a id="Demo"></a>Demo
 * 这里展示一下Demo效果，供参考。
