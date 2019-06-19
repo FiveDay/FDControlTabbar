@@ -78,7 +78,7 @@
 		    demo.tabBarItem.animation = animation;
 			```
 		* Demo
-			![Alt Text](https://github.com/znkd/OpenSourcesProjectResource/blob/master/FDControlTabbar/Demo3Gif.gif?raw=true)
+			![](https://github.com/znkd/OpenSourcesProjectResource/blob/master/FDControlTabbar/Demo3Gif.gif?raw=true)
 	* 中间大图按钮的用法
 		* 代码
 		
@@ -96,7 +96,7 @@
 	    [tabCtl.plusButton addTarget:self action:@selector(onPlusButton) forControlEvents:UIControlEventTouchUpInside];
 		```
 		* Demo
-			![Alt Text](https://github.com/znkd/OpenSourcesProjectResource/blob/master/FDControlTabbar/BigButtonGif.gif?raw=true)
+			![](https://github.com/znkd/OpenSourcesProjectResource/blob/master/FDControlTabbar/BigButtonGif.gif?raw=true)
 	
 	* 图片数组的用法
 		* 代码
@@ -118,7 +118,7 @@
 	    demo.tabBarItem.animationImages = [list copy];
 		```
 		* Demo
-			![Alt Text](https://github.com/znkd/OpenSourcesProjectResource/blob/master/FDControlTabbar/Demo4Gif.gif?raw=true)
+			![](https://github.com/znkd/OpenSourcesProjectResource/blob/master/FDControlTabbar/Demo4Gif.gif?raw=true)
 	* 给tabbaritem加脚注提醒
 		* 代码
 		 
@@ -130,13 +130,16 @@
 	    demo.tabBarItem.dotColor = [UIColor blueColor];
 		```
 		* Demo
-			![Alt Text](https://github.com/znkd/OpenSourcesProjectResource/blob/master/FDControlTabbar/Demo3Gif.gif?raw=true)
+			![](https://github.com/znkd/OpenSourcesProjectResource/blob/master/FDControlTabbar/Demo3Gif.gif?raw=true)
 
 ## <a id="Demo"></a>Demo
-* 这里展示一下Demo效果，供参考。
 
-![Alt Text](https://github.com/znkd/OpenSourcesProjectResource/blob/master/FDControlTabbar/FDControlTabbar_Demo.gif?raw=true)
+* 仿京东App, 动画Tabbar效果。
 
+![](https://github.com/FiveDay/FDControlTabbar/blob/master/jd1.gif)
 
+* 仿咸鱼App, 中间凸起Button效果。
+
+![](https://github.com/FiveDay/FDControlTabbar/blob/master/xy1.gif)
 
 
