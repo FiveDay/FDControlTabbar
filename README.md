@@ -2,24 +2,23 @@
 
 
 
-## FDControlTabbar
+# FDControlTabbar
 
 ![Cocoapods](https://img.shields.io/cocoapods/v/FDControlTabbar.svg)
 
-* 这是一种快捷的TabBarItem样式设置的方法，支持主流APP样式的定制化功能。
+* 快速使用和定制TabBar动画效果。
 
 ## Contents
 
 * Getting Started
-	* [【What is the distinguishing feature of this control】](#What_is_the_distinguishing_feature_of_this_control)
-	* [【Support what kinds of style to tabbar】](#Support_what_kinds_of_style_to_tabbar)
+	* [【Feature】](#Feature)
 	* [【Requirements】](#Requirements)
-	* [【How to use FDControlTabbar】](#How_to_use_FDControlTabbar)
-	* [【Demo】is here](#Demo)
+	* [【HInstall】](#Install)
+	* [【Demo】](#Demo)
 	
 
 	
-## <a id="What_is_the_distinguishing_feature_of_this_control"></a>What is the distinguishing feature of this control
+## <a id="Feature"></a>Feature
 
 * UITabBarController扩展, 最小化代码侵入性.
 * 支持TabBar中间凸起Button显示.
@@ -29,23 +28,15 @@
 * 支持UITaBarItem小红点.
 * 兼容UITabBarController的api使用方式.
 
-
-## <a id="Support_what_kinds_of_style_to_tabbar"></a>Support what kinds of style to tabbar
-* `lottie`、`KeyAnimation`、`largeImageButton`、`ImageArrayButton`、`badge`
-
 ## <a id="Requirements"></a>Requirements
 * iOS8.0 or later
 
-## <a id="How_to_use_FDControlTabbar"></a>How to use FDControlTabbar
+## <a id="Install"></a>Install
 * 安装 
-	* 通过CocoaPods：`pod 'FDControlTabbar'`
+	* 通过CocoaPods：`pod install 'FDControlTabbar'`
 
 	<!--等支持Carthage后，开放这部分内容>
 	<!--* Installation with [Carthage](https://github.com/Carthage/Carthage)：`github "FiveDay/FDControlTabbar"`-->
-
-	* 手动：
-    	* 将 `FDControlTabbar` 文件夹拖入工程
-    	* 引入头文件：`#import "FDControlTabbar.h"`
 
 * 代码示例
 	* lottie格式
