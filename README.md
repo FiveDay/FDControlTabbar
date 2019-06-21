@@ -13,7 +13,7 @@
 * Getting Started
 	* [【Feature】](#Feature)
 	* [【Requirements】](#Requirements)
-	* [【HInstall】](#Install)
+	* [【Install】](#Install)
 	* [【Demo】](#Demo)
 	
 
@@ -39,7 +39,7 @@
 	<!--* Installation with [Carthage](https://github.com/Carthage/Carthage)：`github "FiveDay/FDControlTabbar"`-->
 
 * 代码示例
-	* lottie格式
+	* lottie格式动画的Tabbar用法
 		* 代码
 	
 			```
@@ -49,7 +49,7 @@
 			```
 		* Demo
 			![Alt Text](https://github.com/znkd/OpenSourcesProjectResource/blob/master/FDControlTabbar/Demo2Gif.gif?raw=true) 
-	* keyAnimation的用法
+	* keyAnimation动画的Tabbar用法
 		* 代码
 		
 			```
@@ -70,7 +70,7 @@
 			```
 		* Demo
 			![](https://github.com/znkd/OpenSourcesProjectResource/blob/master/FDControlTabbar/Demo3Gif.gif?raw=true)
-	* 中间大图按钮的用法
+	* 中间显示凸起按钮的Tabbar用法
 		* 代码
 		
 		```
@@ -89,7 +89,7 @@
 		* Demo
 			![](https://github.com/znkd/OpenSourcesProjectResource/blob/master/FDControlTabbar/BigButtonGif.gif?raw=true)
 	
-	* 图片数组的用法
+	* 图片数组动画的Tabbar用法
 		* 代码
 		
 		```
@@ -110,7 +110,7 @@
 		```
 		* Demo
 			![](https://github.com/znkd/OpenSourcesProjectResource/blob/master/FDControlTabbar/Demo4Gif.gif?raw=true)
-	* 给tabbaritem加脚注提醒
+	* 给TabbarItem加红点提醒的Tabbar用法
 		* 代码
 		 
 		```
