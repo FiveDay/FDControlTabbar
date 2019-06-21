@@ -127,10 +127,11 @@
 
 * 仿京东App, 动画Tabbar效果。
 
-![](https://github.com/FiveDay/FDControlTabbar/blob/master/jd1.gif)
+![](https://github.com/FiveDay/FDControlTabbar/blob/master/jd1.gif?raw=true)
+
 
 * 仿咸鱼App, 中间凸起Button效果。
 
-![](https://github.com/FiveDay/FDControlTabbar/blob/master/xy1.gif)
+![](https://github.com/FiveDay/FDControlTabbar/blob/master/xy1.gif?raw=true)
 
 
